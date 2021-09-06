@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+    <style>
+        body {
+            background: #a3f7df;
+        }
+
+        .box {
+            position: relative;
+            margin: auto;
+            display: block;
+            margin-top: 10%;
+            width: 600px;
+            height: 420px;
+            background: none;
+            /* border: solid 3px White;*/
+        }
+
+        .head {
+            position: absolute;
+            top: 16.5%;
+            left: 25%;
+            width: 50%;
+            height: 67%;
+            background: #916953;
+            border-radius: 50%;
+        }
+
+        .head-copy {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: #916953;
+            border-radius: 50%;
+            z-index: 2;
+        }
+
+        .ear-left {
+            position: absolute;
+            width: 50%;
+            height: 55%;
+            left: -2%;
+            top: -5%;
+            background: #916953;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .ear-right {
+            position: absolute;
+            width: 50%;
+            height: 55%;
+            right: -2%;
+            top: -5%;
+            background: #916953;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .inner-ear {
+            position: absolute;
+            border-radius: 50%;
+            width: 80%;
+            height: 80%;
+            top: 10%;
+            left: 10%;
+            background: #fcb5b5;
+        }
+
+        .eye-left {
+            position: absolute;
+            background: black;
+            width: 30px;
+            height: 15px;
+            top: 100px;
+            left: 100px;
+            border-radius: 50%;
+            z-index: 3;
+        }
+
+        .eye-right {
+            position: absolute;
+            background: black;
+            width: 30px;
+            height: 15px;
+            top: 100px;
+            right: 100px;
+            border-radius: 50%;
+            z-index: 3;
+        }
+
+        .snout {
+            position: absolute;
+            background: #fdcfcf;
+            width: 110px;
+            height: 85px;
+            top: 140px;
+            left: 99px;
+            border-radius: 100%;
+            z-index: 2;
+        }
+
+        .nose {
+            position: absolute;
+            top: 10px;
+            left: 35px;
+            width: 35px;
+            height: 20px;
+            background: #333;
+            border-radius: 100%;
+        }
+
+        .bridge {
+            position: absolute;
+            top: 30px;
+            left: 50px;
+            width: 4px;
+            height: 17px;
+            background: #333;
+        }
+
+        .mouth {
+            position: absolute;
+            width: 35px;
+            height: 20px;
+            border-radius: 0% 0% 100% 100%;
+            border-bottom: 2px solid;
+            top: 40px;
+            left: 40px;
+        }
+
+        .paci {
+            position: absolute;
+            top: 45px;
+            left: 30px;
+            width: 47px;
+            height: 28px;
+            background: #7fb7be;
+            border-radius: 20px;
+        }
+
+        .mid {
+            position: absolute;
+            top: 5px;
+            left: 13px;
+            width: 20px;
+            height: 18px;
+            background: #f05d5e;
+            border-radius: 50%;
+        }
+
+        .ring {
+            position: absolute;
+            top: 10px;
+            left: 12px;
+            width: 25px;
+            height: 20px;
+            border: 2px solid #f05d5e;
+            border-radius: 50%;
+        }
+    </style>
+</body>
+
+<body>
+
+    <div class="box">
+        <div class="head">
+            <div class="head-copy"></div>
+            <div class="ear-left">
+                <div class="inner-ear"></div>
+            </div>
+            <div class="ear-right">
+                <div class="inner-ear"></div>
+            </div>
+            <div class="eye-left"></div>
+            <div class="eye-right"></div>
+            <div class="snout">
+                <div class="nose"> </div>
+                <div class="bridge"></div>
+                <div class="mouth"> </div>
+                <div class="paci">
+                    <div class="mid"> </div>
+                    <div class="ring"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
