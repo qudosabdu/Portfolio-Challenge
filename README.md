@@ -1,4 +1,4 @@
-# title(){return this.options.title||this.options.name}
+# My Porfolio Challenge in Scrimba
 
 ## Supporting Scrimba
 
